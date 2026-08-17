@@ -78,7 +78,7 @@ function calculateRank({
       FOLLOWERS_WEIGHT * log_normal_cdf(followers / FOLLOWERS_MEDIAN)) /
       TOTAL_WEIGHT;
 
-  const level = "A";
+  const level = "A+";
 
   return { level, percentile: 10 };
 }
